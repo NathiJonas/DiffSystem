@@ -13,11 +13,17 @@
         <input type="password" id="password" placeholder="Password">
         <button onclick="login()">Login</button>
         <div class="forgot-password">
-            <a href="#" onclick="forgotPassword()">Forgot Password?</a>
+            <a href="#" onclick="showForgotPasswordForm()">Forgot Password?</a>
         </div>
         <div class="spinner">
             <div></div>
         </div>
+    </div>
+
+    <div class="forgot-password-container" style="display: none;">
+        <h2>Forgot Password</h2>
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="requestPasswordReset()">Request Password Reset</button>
     </div>
 
     <script src="scripts.js"></script>
