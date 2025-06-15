@@ -17,10 +17,21 @@ function login() {
     }, 2000); // Simulate a 2-second loading time
 }
 
-function forgotPassword() {
-    const email = prompt('Please enter your email address:');
-    if (email) {
-        alert('Password reset link has been sent to ' + email);
-        // Here you would typically send the email to the server to handle the password reset process
-    }
+function showForgotPasswordForm() {
+    document.querySelector('.login-container').style.display = 'none';
+    document.querySelector('.forgot-password-container').style.display = 'block';
+}
+
+function requestPasswordReset() {
+    const email = document.getElementById('email').value;
+    fetch('/request-password-reset', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email })
+    })
+    .then(response => response.text())
+    .then(data => alert(data))
+    .catch(error => console.error('Error:', error));
 }
