@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Nokuthula",
+        "subject_area": "Science",
+        "email": "teacher1@school.com",
+        "password": "scrypt:32768:8:1$e03pIhnkuH0He5tZ$d0da98199981a9efa4b317044e38068840dc07ad2cd3c6c1eb0c50bcb7f0ef13e168fb4f13c1a61efdc62ed721fe51db7e29952028a140120952f983ed62b3a5"
+    },
+    {
+        "name": "Emily",
+        "subject_area": "Geography",
+        "email": "teacher2@school.com",
+        "password": "scrypt:32768:8:1$Gafb83u4XSlsnXkU$18062789c463be1098400c72c83f100d6c06e703027ec8a7091ad2fe269a90c796406de29cadcc8bc0c186bc93345de7fc06bbee3def7a9826383c1c2f0e34c4"
+    },
+    {
+        "name": "Jabulani",
+        "subject_area": "English",
+        "email": "teacher3@school.com",
+        "password": "scrypt:32768:8:1$uodrIbh4MXpFzHhY$c2720f5dca0ee4fd72d218c545dd95e61faa95d749204a3a7d472ac92754233b52c7c78e50baae8feac957f8405e8061e5f3b7819c4275c23a6d79cee68eb41a"
+    },
+    {
+        "name": "Jessica",
+        "subject_area": "History",
+        "email": "teacher4@school.com",
+        "password": "scrypt:32768:8:1$SHaKY22slE41ZGbH$4f9b174e135478bdb6030e4a69b48d3afe3d034abce32a2751d98f41575bae3e84fac243c3d1aebaacfb3bd1bf3ab421253bd44049b5871c53c0330b8b9c7dfe"
+    },
+    {
+        "name": "Palesa",
+        "subject_area": "Geography",
+        "email": "teacher5@school.com",
+        "password": "scrypt:32768:8:1$EwzYXHqouVwRIiCx$e26d7e51e1fe10add524ca6e6cfcd59d350aa062a52d70f5bb0f12a4f6fe1c5137a80df69c4b532fc83e887fa118cbfb5c68efa8797d5d9668959b2117798a6e"
+    },
+    {
+        "name": "Jessica",
+        "subject_area": "History",
+        "email": "teacher6@school.com",
+        "password": "scrypt:32768:8:1$NvKjtuoj9d14P6cC$1424fb4ea2e1331067ea19ec3f013502fd2f631498765183777415c284d78c0541f43627e1d3ee4764e60b3518b3b2be63f124d05634ad37cb969bf3ef9fc7db"
+    },
+    {
+        "name": "Nomsa",
+        "subject_area": "Geography",
+        "email": "teacher7@school.com",
+        "password": "scrypt:32768:8:1$QNsJg7NxcWKr5wi3$c7ebdfbe78c16822289ba4ccb0e2fe75066f74fc05f5a99a99c4bbab4caf27d721e10b1ad4dbf7174ab7bdeda3f709b6d42fbb5e79ec8e99b0cdfaedb135bda1"
+    },
+    {
+        "name": "Emily",
+        "subject_area": "English",
+        "email": "teacher8@school.com",
+        "password": "scrypt:32768:8:1$hO3cJFOWROb06vly$61e109fab691d8a7048acc1bda547d6a8e4bcdd92fd0c7e6bf3e4e4aa2ddc560dd10246f15a300787d89e368cbd0cfcecd2484f1a1e35c4d3744cf500b420b4a"
+    },
+    {
+        "name": "Kabelo",
+        "subject_area": "History",
+        "email": "teacher9@school.com",
+        "password": "scrypt:32768:8:1$NY8qsrEBbHpdh2jK$703b54207729e2d77b37f4f94c9466e67532167e96ba242a2ba6bda168f18347f650d9a5e28ea0d964284b66a8ba28fa3634eb960d592aa307e4d7c95039ecdf"
+    },
+    {
+        "name": "Nokuthula",
+        "subject_area": "History",
+        "email": "teacher10@school.com",
+        "password": "scrypt:32768:8:1$6j0QScOwB57tt6nr$4cee2d4b525b9052b55a0c50d570185cd93f7dd80ea6dbdbe99594172832a68276fe2abf4a8ed395ba9b23025db3a586d9f9791e204fccd98c8a4ef5d21ca0dd"
+    }
+]
