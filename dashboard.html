@@ -7,34 +7,26 @@
     body { font-family: Arial; padding: 20px; background: #f9f9f9; }
     .container { background: white; padding: 20px; border-radius: 10px; max-width: 98%; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
     h2 { text-align: center; }
-    .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    input[type="text"] { padding: 8px; margin-right: 10px; }
-    select { padding: 8px; margin-right: 10px; }
+    input[type="text"] { width: 200px; padding: 8px; margin-bottom: 10px; }
+    select { padding: 8px; margin-left: 10px; }
     table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
     th, td { padding: 8px; border: 1px solid #ccc; text-align: center; }
     th { background-color: #f2f2f2; }
     td[contenteditable="true"] { background-color: #fffdd0; }
-    button { padding: 8px 12px; margin-right: 10px; }
+    button.save-btn { padding: 6px 10px; margin-top: 10px; }
   </style>
 </head>
 <body onload="checkLogin(); loadLearners();">
   <div class="container">
-    <div class="top-bar">
-      <div>
-        <input type="text" id="searchInput" placeholder="Search by name..." onkeyup="filterTable()">
-        <select id="styleFilter" onchange="filterTable()">
-          <option value="">Filter by Preferred Style</option>
-          <option value="Visual">Visual</option>
-          <option value="Auditory">Auditory</option>
-          <option value="Reading/Writing">Reading/Writing</option>
-          <option value="Kinesthetic">Kinesthetic</option>
-        </select>
-      </div>
-      <div>
-        <button onclick="exportCSV()">Export CSV</button>
-        <button onclick="logout()">Logout</button>
-      </div>
-    </div>
+    <h2>Learner Assessment Dashboard</h2>
+    <input type="text" id="searchInput" placeholder="Search by name..." onkeyup="filterTable()">
+    <select id="styleFilter" onchange="filterTable()">
+      <option value="">Filter by Preferred Style</option>
+      <option value="Visual">Visual</option>
+      <option value="Auditory">Auditory</option>
+      <option value="Reading/Writing">Reading/Writing</option>
+      <option value="Kinesthetic">Kinesthetic</option>
+    </select>
     <table id="learnersTable">
       <thead>
         <tr>
@@ -45,7 +37,7 @@
       </thead>
       <tbody></tbody>
     </table>
-    <button onclick="saveEdits()">Save Edits</button>
+    <button class="save-btn" onclick="saveEdits()">Save Edits</button>
   </div>
 
   <script>
@@ -55,11 +47,6 @@
       if (localStorage.getItem("loggedIn") !== "true") {
         window.location.href = "login.html";
       }
-    }
-
-    function logout() {
-      localStorage.removeItem("loggedIn");
-      window.location.href = "login.html";
     }
 
     async function loadLearners() {
@@ -123,21 +110,6 @@
       });
       localStorage.setItem("learnersEdited", JSON.stringify(editedData));
       alert("Edits saved locally. To persist in DB, backend update required.");
-    }
-
-    function exportCSV() {
-      const rows = document.querySelectorAll("#learnersTable tr");
-      const csv = Array.from(rows).map(row => {
-        return Array.from(row.children).map(cell => `"${cell.textContent}"`).join(",");
-      }).join("\n");
-
-      const blob = new Blob([csv], { type: "text/csv" });
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = "learners_export.csv";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
     }
   </script>
 </body>
