@@ -7,10 +7,10 @@
     "age": 13,
     "parent_name": "Thandeka Dlamini",
     "parent_cell": "0661549352",
-    "score_visual": 53,
-    "score_auditory": 53,
-    "score_reading": 58,
-    "score_kinesthetic": 93,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -21,10 +21,10 @@
     "age": 17,
     "parent_name": "Jabulani Khumalo",
     "parent_cell": "0774652493",
-    "score_visual": 98,
-    "score_auditory": 97,
-    "score_reading": 92,
-    "score_kinesthetic": 56,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -35,10 +35,10 @@
     "age": 17,
     "parent_name": "Precious Sebeko",
     "parent_cell": "0622607460",
-    "score_visual": 61,
-    "score_auditory": 98,
-    "score_reading": 73,
-    "score_kinesthetic": 67,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Auditory"
   },
   {
@@ -49,10 +49,10 @@
     "age": 16,
     "parent_name": "Nosipho Dlamini",
     "parent_cell": "0626698498",
-    "score_visual": 76,
-    "score_auditory": 43,
-    "score_reading": 79,
-    "score_kinesthetic": 56,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Reading/Writing"
   },
   {
@@ -63,10 +63,10 @@
     "age": 15,
     "parent_name": "Jabulani Molefe",
     "parent_cell": "0827865694",
-    "score_visual": 42,
-    "score_auditory": 68,
-    "score_reading": 56,
-    "score_kinesthetic": 84,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -77,10 +77,10 @@
     "age": 18,
     "parent_name": "Precious Mthembu",
     "parent_cell": "0697650942",
-    "score_visual": 43,
-    "score_auditory": 83,
-    "score_reading": 63,
-    "score_kinesthetic": 83,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Auditory"
   },
   {
@@ -91,10 +91,10 @@
     "age": 18,
     "parent_name": "Simon Dlamini",
     "parent_cell": "0841557549",
-    "score_visual": 63,
-    "score_auditory": 74,
-    "score_reading": 40,
-    "score_kinesthetic": 82,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -105,10 +105,10 @@
     "age": 18,
     "parent_name": "Nosipho Sebeko",
     "parent_cell": "0746787833",
-    "score_visual": 99,
-    "score_auditory": 65,
-    "score_reading": 71,
-    "score_kinesthetic": 42,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -119,10 +119,10 @@
     "age": 14,
     "parent_name": "Jabulani Dlamini",
     "parent_cell": "0853803673",
-    "score_visual": 82,
-    "score_auditory": 50,
-    "score_reading": 67,
-    "score_kinesthetic": 54,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -133,10 +133,10 @@
     "age": 18,
     "parent_name": "Nthabiseng Nkosi",
     "parent_cell": "0695906324",
-    "score_visual": 100,
-    "score_auditory": 83,
-    "score_reading": 74,
-    "score_kinesthetic": 42,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -147,10 +147,10 @@
     "age": 16,
     "parent_name": "Nomvula Mthembu",
     "parent_cell": "0880142932",
-    "score_visual": 61,
-    "score_auditory": 56,
-    "score_reading": 42,
-    "score_kinesthetic": 62,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -161,10 +161,10 @@
     "age": 18,
     "parent_name": "Nthabiseng Khumalo",
     "parent_cell": "0844965345",
-    "score_visual": 75,
-    "score_auditory": 40,
-    "score_reading": 40,
-    "score_kinesthetic": 91,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -175,10 +175,10 @@
     "age": 18,
     "parent_name": "Jabulani Mthembu",
     "parent_cell": "0719683606",
-    "score_visual": 73,
-    "score_auditory": 60,
-    "score_reading": 91,
-    "score_kinesthetic": 64,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Reading/Writing"
   },
   {
@@ -189,10 +189,10 @@
     "age": 17,
     "parent_name": "Vusi Mthembu",
     "parent_cell": "0650409374",
-    "score_visual": 73,
-    "score_auditory": 73,
-    "score_reading": 67,
-    "score_kinesthetic": 79,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Kinesthetic"
   },
   {
@@ -203,10 +203,10 @@
     "age": 17,
     "parent_name": "Sifiso Mahlangu",
     "parent_cell": "0838837294",
-    "score_visual": 89,
-    "score_auditory": 56,
-    "score_reading": 88,
-    "score_kinesthetic": 61,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -217,10 +217,10 @@
     "age": 17,
     "parent_name": "Precious Mahlangu",
     "parent_cell": "0852111707",
-    "score_visual": 73,
-    "score_auditory": 85,
-    "score_reading": 91,
-    "score_kinesthetic": 53,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Reading/Writing"
   },
   {
@@ -231,10 +231,10 @@
     "age": 16,
     "parent_name": "Siphelele Mahlangu",
     "parent_cell": "0739077168",
-    "score_visual": 85,
-    "score_auditory": 57,
-    "score_reading": 63,
-    "score_kinesthetic": 44,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -245,10 +245,10 @@
     "age": 17,
     "parent_name": "Precious Masuku",
     "parent_cell": "0856917782",
-    "score_visual": 81,
-    "score_auditory": 60,
-    "score_reading": 65,
-    "score_kinesthetic": 46,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Visual"
   },
   {
@@ -259,10 +259,10 @@
     "age": 14,
     "parent_name": "Simon Mthembu",
     "parent_cell": "0755652755",
-    "score_visual": 45,
-    "score_auditory": 41,
-    "score_reading": 91,
-    "score_kinesthetic": 72,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Reading/Writing"
   },
   {
@@ -273,10 +273,10 @@
     "age": 13,
     "parent_name": "Sifiso Sebeko",
     "parent_cell": "0668087089",
-    "score_visual": 54,
-    "score_auditory": 68,
-    "score_reading": 88,
-    "score_kinesthetic": 47,
+    "score_Term_1": 53,
+    "score_Term_2": 53,
+    "score_Term_3": 58,
+    "score_Term_4": 93,
     "preferred_learning_style": "Reading/Writing"
   }
 ]
