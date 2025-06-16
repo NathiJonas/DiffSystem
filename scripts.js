@@ -9,7 +9,7 @@ function login() {
         spinner.style.display = 'none';
         if (username === 'teacher' && password === 'password') {
             alert('Login successful!');
-            // Redirect to differentiated assessment tool dashboard
+            localStorage.setItem("loggedIn", "true"); // This line enables dashboard access
             window.location.href = 'dashboard.html';
         } else {
             alert('Invalid credentials, please try again.');
