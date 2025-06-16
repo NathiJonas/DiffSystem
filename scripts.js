@@ -50,10 +50,14 @@ function checkLogin() {
 
 // Load learners from learners.json
 async function loadLearners() {
-  const response = await fetch("learners.json");
-  learnersData = await response.json();
-  renderTable(learnersData);
-  renderChart(learnersData);
+  try {
+    const response = await fetch("learners.json");
+    if (!response.ok) throw new Error("File not found");
+    learnersData = await response.json();
+    renderTable(learnersData);
+  } catch (err) {
+    alert("Failed to load learners data: " + err.message);
+  }
 }
 
 // Render the learners table
