@@ -70,10 +70,10 @@ function renderTable(data) {
       <td contenteditable="true">${learner.age}</td>
       <td contenteditable="true">${learner.parent_name}</td>
       <td contenteditable="true">${learner.parent_cell}</td>
-      <td contenteditable="true">${learner.score_visual}</td>
-      <td contenteditable="true">${learner.score_auditory}</td>
-      <td contenteditable="true">${learner.score_reading}</td>
-      <td contenteditable="true">${learner.score_kinesthetic}</td>
+      <td contenteditable="true">${learner.score_Term_1}</td>
+      <td contenteditable="true">${learner.score_Term_2}</td>
+      <td contenteditable="true">${learner.score_Term_3}</td>
+      <td contenteditable="true">${learner.score_Term_4}</td>
       <td contenteditable="true">${learner.preferred_learning_style}</td>
     `;
     tbody.appendChild(row);
@@ -111,10 +111,10 @@ function saveEdits() {
       age: parseInt(cells[4].textContent.trim()),
       parent_name: cells[5].textContent.trim(),
       parent_cell: cells[6].textContent.trim(),
-      score_visual: parseInt(cells[7].textContent.trim()),
-      score_auditory: parseInt(cells[8].textContent.trim()),
-      score_reading: parseInt(cells[9].textContent.trim()),
-      score_kinesthetic: parseInt(cells[10].textContent.trim()),
+      score_Term_1: parseInt(cells[7].textContent.trim()),
+      score_Term_2: parseInt(cells[8].textContent.trim()),
+      score_Term_3: parseInt(cells[9].textContent.trim()),
+      score_Term_4: parseInt(cells[10].textContent.trim()),
       preferred_learning_style: cells[11].textContent.trim()
     });
   });
@@ -127,7 +127,7 @@ function saveEdits() {
 function renderChart(data) {
   const ctx = document.getElementById('styleChart').getContext('2d');
   // Count styles
-  const styleCounts = { Visual: 0, Auditory: 0, "Reading/Writing": 0, Kinesthetic: 0 };
+  const styleCounts = { Term 1: 0, Term 2: 0, Term 3: 0, Term 4: 0 };
   data.forEach(l => {
     if (styleCounts[l.preferred_learning_style] !== undefined) {
       styleCounts[l.preferred_learning_style]++;
