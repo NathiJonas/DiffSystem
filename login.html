@@ -70,22 +70,24 @@
   </div>
 
   <script>
-    function login() {
-      const username = document.getElementById("username").value.trim();
-      const password = document.getElementById("password").value.trim();
+   // script.js
 
-      if (username === "teacher" && password === "admin123") {
-        localStorage.setItem("loggedIn", true);
-        window.location.href = "dashboard.html";
-      } else {
-        document.getElementById("error").textContent = "Invalid credentials";
-      }
-    }
+function login() {
+  const username = document.getElementById("username").value.trim();
+  const password = document.getElementById("password").value.trim();
 
-    // Auto redirect if already logged in
-    if (localStorage.getItem("loggedIn")) {
-      window.location.href = "dashboard.html";
-    }
+  if (username === "teacher" && password === "admin123") {
+    localStorage.setItem("loggedIn", true);
+    window.location.href = "dashboard.html";
+  } else {
+    document.getElementById("error").textContent = "Invalid credentials";
+  }
+}
+
+// Auto redirect if already logged in
+if (localStorage.getItem("loggedIn")) {
+  window.location.href = "dashboard.html";
+}
   </script>
 
 </body>
